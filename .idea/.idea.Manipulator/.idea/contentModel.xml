@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kaanu\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\kaanu\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kaanu\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Manipulator.1076810927.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kaanu\RiderProjects\Manipulator" t="IncludeFlat">
+      <e p="Business" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Business.csproj" t="IncludeRecursive" />
+        <e p="BusinessModule.cs" t="Include" />
+        <e p="Handlers" t="Include">
+          <e p="CampaignCreateRequestHandler.cs" t="Include" />
+          <e p="CampaignGetRequestHandler.cs" t="Include" />
+          <e p="CampaignUpdateRequestHandler.cs" t="Include" />
+          <e p="OrderCreateRequestHandler.cs" t="Include" />
+          <e p="ProductCreateRequestHandler.cs" t="Include" />
+          <e p="ProductGetRequestHandler.cs" t="Include" />
+          <e p="ProductUpdateRequestHandler.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common.csproj" t="IncludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="IOrderable.cs" t="Include" />
+          <e p="Orderable.cs" t="Include" />
+        </e>
+        <e p="Handlers" t="Include">
+          <e p="BaseHandler.cs" t="Include" />
+        </e>
+        <e p="Infrastructures" t="Include">
+          <e p="IContextManager.cs" t="Include" />
+          <e p="IDataContextFactory.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="IServiceLocator.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="RepositoryBase.cs" t="Include" />
+          <e p="UnitOfWorkBase.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Responses" t="Include">
+          <e p="BaseResponse.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Contact" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contact.csproj" t="IncludeRecursive" />
+        <e p="Dtos" t="Include">
+          <e p="Options" t="Include">
+            <e p="CreateCampaignOptions.cs" t="Include" />
+            <e p="CreateOrderOptions.cs" t="Include" />
+            <e p="CreateProductOptions.cs" t="Include" />
+            <e p="GetCampaignInfoOptions.cs" t="Include" />
+            <e p="GetProductInfoOptions.cs" t="Include" />
+            <e p="IncreaseTimeOptions.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="ICreateCampaignOptions.cs" t="Include" />
+              <e p="ICreateOrderOptions.cs" t="Include" />
+              <e p="ICreateProductOptions.cs" t="Include" />
+              <e p="IGetCampaignInfoOptions.cs" t="Include" />
+              <e p="IGetProductInfoOptions.cs" t="Include" />
+              <e p="IIncreaseTimeOptions.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Contact.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Requests" t="Include">
+          <e p="CampaignCreateRequest.cs" t="Include" />
+          <e p="CampaignGetRequest.cs" t="Include" />
+          <e p="CampaignUpdateRequest.cs" t="Include" />
+          <e p="OrderCreateRequest.cs" t="Include" />
+          <e p="ProductCreateRequest.cs" t="Include" />
+          <e p="ProductGetRequest.cs" t="Include" />
+          <e p="ProductUpdateRequest.cs" t="Include" />
+        </e>
+        <e p="Response" t="Include">
+          <e p="CampaignCreateResponse.cs" t="Include" />
+          <e p="CampaignGetResponse.cs" t="Include" />
+          <e p="CampaignUpdateResponse.cs" t="Include" />
+          <e p="OrderCreateResponse.cs" t="Include" />
+          <e p="ProductCreateResponse.cs" t="Include" />
+          <e p="ProductGetResponse.cs" t="Include" />
+          <e p="ProductUpdateResponse.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="DataContext.cs" t="Include" />
+        <e p="DataContextFactory.cs" t="Include" />
+        <e p="DataModule.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Campaign.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IProductRepository.cs" t="Include" />
+          <e p="ProductRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Host" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="file.txt" t="Include" />
+        <e p="Host.csproj" t="IncludeRecursive" />
+        <e p="HostModule.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Host.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="CampaignService.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="ICampaignService.cs" t="Include" />
+            <e p="IOrderService.cs" t="Include" />
+            <e p="IProductService.cs" t="Include" />
+          </e>
+          <e p="OrderService.cs" t="Include" />
+          <e p="ProductService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Manipulator.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
