@@ -1,3 +1,3 @@
 # Manipulator
-Running
+Running :
 dotnet [FILE_PATH]
